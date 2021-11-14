@@ -13,7 +13,7 @@ export enum TripType {
   AL = 'ALL_INCLUSIVE',
 }
 
-@Entity({ name: 'trip-type' })
+@Entity({ name: 'trip_type' })
 export class TripTypeEntity {
   @PrimaryGeneratedColumn('uuid')
   id: string;
